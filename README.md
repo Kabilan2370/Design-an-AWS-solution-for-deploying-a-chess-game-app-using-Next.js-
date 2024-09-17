@@ -12,5 +12,6 @@ Design an AWS solution for deploying a chess game app using Next.js, NestJS, Pos
 - Database: Manage scaling of RDS.
 - Scheduling: Redis task scheduling.
   
+## *Architecture of this project....*
 
 ![image](chess.png)
