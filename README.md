@@ -1,7 +1,7 @@
 # Design-an-AWS-solution-for-deploying-a-chess-game-app-using-Next.js-
 Design an AWS solution for deploying a chess game app using Next.js, NestJS, PostgreSQL, Redis, and WebSockets. Focus on scalability, cost efficiency, and security.
 
-### Assignment
+### Assignment :
 ### AWS Cloud Solution Design Assessment -
 
 - Design an AWS solution for deploying a chess game app using Next.js, NestJS, PostgreSQL, Redis, and WebSockets. Focus on scalability, cost efficiency, and security.
@@ -11,5 +11,6 @@ Design an AWS solution for deploying a chess game app using Next.js, NestJS, Pos
 - Security: Outline security practices using IAM, VPC, Secrets Manager, and CloudWatch for monitoring.
 - Database: Manage scaling of RDS.
 - Scheduling: Redis task scheduling.
+  
 
 ![image](chess.png)
