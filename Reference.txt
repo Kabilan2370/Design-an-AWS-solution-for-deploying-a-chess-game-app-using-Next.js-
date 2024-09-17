@@ -1,0 +1,34 @@
+AWS Cloud Solution Design Assessment :
+
+Design an AWS solution for deploying a chess game app using Next.js, NestJS, PostgreSQL, Redis, and WebSockets. Focus on scalability, cost efficiency, and security.
+Areas to Address:
+
+- Architecture Design: Propose AWS services like EC2/ECS for the backend, RDS for PostgreSQL, ElastiCache for Redis, and CloudFront for frontend. Explain WebSocket scaling.
+- Scaling & Cost Efficiency: Plan for auto-scaling, WebSocket connection handling, and cost optimization with on-demand instances, CDN, and caching.
+- Security: Outline security practices using IAM, VPC, Secrets Manager, and CloudWatch for monitoring.
+- Database: Manage scaling of RDS.
+- Scheduling: Redis task scheduling.
+
+Project scop :
+   Develop an AWS architecture for the deployment of a chess game application utilizing Next.js in conjunction with an AWS PostgreSQL database. In this setup, all services
+are established within a single availability zone, and an Elastic Load Balancer is employed to effectively manage and regulate network traffic.
+
+Architecture Design :
+  - Recommend utilizing AWS services such as EC2 for backend operations, RDS for PostgreSQL database management, and CloudFront for frontend delivery.
+
+Scaling & Cost Efficiency :
+  - Develop a strategy for auto-scaling, utilizing WebSocket connection management to automatically minimize machine latency.
+
+  What is websockets used for ?
+  - WebSocket servers can horizontally scale to handle a large number of client connections by adopting an architecture that allows for dynamic server spawning and a server registry.
+    One possible approach is to use AWS Auto Scaling Groups (ASG) to spawn new servers dynamically based on the demand for connections.
+  - WebSockets are used for real-time, event-driven communication between clients and servers. They are essential for applications needing instant updates, such as real-time chat,
+    messaging, and multiplayer games. In traditional HTTP, clients continuously poll the server, causing increased latency and inefficiency.
+
+Security :
+  -  Detail the security measures implemented through IAM, VPC, Secrets Manager, and CloudWatch for the purpose of delivering specific functionalities. An IAM role is designated
+for code deployment, while EC2 instances are utilized for deployment and monitoring via CloudWatch.
+
+Database :
+  - Two PostgreSQL RDS instances are utilized to store an application via CloudFront.
+
